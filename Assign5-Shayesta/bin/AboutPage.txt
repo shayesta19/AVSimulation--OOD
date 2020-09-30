@@ -1,0 +1,36 @@
+AUTONOMOUS VEHICLE SIMULATION
+
+DISPLAY CONTROLS:
+START BUTTON:
+Start button starts the simulation
+STOP BUTTON:
+Stop button stops and resets the state of the simulation.
+PAUSE/RESUME BUTTON:
+Pause Button pauses the simulation in its current state. Resume resumes the simulation from its paused state.
+RULES COMBO BOX:
+A dropdown menu that allows you to select the rules the simulation will follow
+SCENARIOS COMBO BOX:
+A Dropdown menu that allows you to select the scenarios that set the scene to show the working of the selected rule.
+SLIDER: controls how many vehicles are displayed.
+
+RULES:
+SIMPLE:
+The vehicles all move in a straight line and stop upon encountering a vehicle blocking their path.
+COMPLEX RULE – LEFT PASSING:
+A vehicle moves in a straight line and either slows down if necessary or switches to an available left lane on encountering another vehicle blocking its path (the vehicle in front is stopped or is moving slower than the vehicle behind it).If a switch to a left lane is not possible the vehicle stops.
+COMPLEX RULE –LEFT AND RIGHT PASSING:
+A vehicle moves in a straight line and switch to either an available left lane on encountering another vehicle blocking its path else switches to an available right lane.
+
+
+SCENARIOS:
+RANDOM:
+Creates a scenario where the number of vehicles is specified by the value of the slider. The behavior of the vehicles is specified by the rule chosen.
+LANE CHANGE – LEFT LANE:
+Creates a scenario to display the working of the complex rule with left passing; wherein a vehicle encounters another vehicle blocking its path and makes a switch to an available left lane.
+LANE CHANGE LEFT LANE – ADJACENT VEHICLE:
+This represents a road setup where a vehicle has adjacent vehicles in the left lane and the behavior of the vehicle depends on the rule chosen.
+LANE CHANGE LEFT LANE – STOPPED VEHICLE:
+This represents a road setup where there is a single stopped vehicle in any one of the three lanes. The behavior of the vehicles depends on the rule chosen.
+LANE CHANGE LEFT LANE – TWO STOPPED VEHICLES:
+This represents a road setup where there are two vehicles stopped in any two of the three lanes. The behavior of the vehicles depends on the rule chosen.
+
